@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="Ex2.js"> </script>
+    <form name="forme" onsubmit="return validate()">
+
+        Ваше имя*<input id='inp0' type="text" name="imy" size=15 required placeholder="Ваше имя"><br>
+        
+        Пароль*<input type="password" id="inp1" size=10 required placeholder="Пароль"><br>
+        
+        Потверждение пароля*<input type="password" id="inp2" size=10 required placeholder="Потверждение пароля"><br>
+        
+        Электронный адрес*<input id="ema" type="email" required placeholder="Электронный адрес"><br>
+        
+        Тема сообщения:*<input type="text" size=15 required placeholder="Тема сообщения"><br>
+        
+        Сообщение:<textarea id="inp3" cols=16 rows=5></textarea><br><br>
+        
+        <input type="button" value="Проверить" id="b"><input type="reset" value="Очистить форму">
+        
+
+<div id="res"></div>
+<div id="ema1"></div>
+<div id="res1"></div>
+<div id="der"></div>
+<div id="der1"></div>
+</form>
+</body>
+</html>
